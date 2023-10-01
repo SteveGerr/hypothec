@@ -13,4 +13,8 @@ export default defineNuxtConfig({
   },
 
   modules: ["@vueuse/motion/nuxt"],
+
+  app: {
+    baseURL: "/hypothec/",
+  },
 });
